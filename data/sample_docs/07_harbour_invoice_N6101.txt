@@ -1,0 +1,36 @@
+SAMPLE DOCUMENT - synthetic recreation of a real-world distributor invoice
+format, built for this public demo. All names, addresses, document numbers
+and prices are invented; no real business or customer data is included.
+The scenario it captures: a shipped invoice whose tracking (connote)
+number is blank in BOTH the email and the invoice - the tool must flag
+TRACKING_MISSING and never invent a number.
+
+--- EMAIL ---
+From: Harbour Imports <dispatch@harbourimports.example>
+Date: Thu, 22 Oct 2026 21:19
+Subject: Invoice #H731204 from Harbour Imports
+To: orders@shop.example, accounts@shop.example
+
+Please find attached invoice #H731204 which has been shipped today.
+Shipping Connote -
+
+--- ATTACHMENT: Invoice #H731204.pdf (text layer) ---
+HARBOUR IMPORTS, 14 Sample Industrial Drive, Example Bay QLD 4000, orders@harbourimports.example
+TAX INVOICE
+Date: 22/10/2026
+Order No: N6101
+Invoice No: H731204
+Customer: Example Bike Co, 1 Sample Street, Sampleton NSW 2000, Contact: Shop Manager
+Deliver to: Example Bike Co, [SAMPLE CUSTOMER NAME], [SAMPLE STREET ADDRESS], HARBOUR TOWN TAS 7000, [SAMPLE PHONE]
+Note on the format: in the original two-column layout the 'Customer:' box
+is the shop and the 'Deliver to:' box is the end customer. Plain PDF text
+extraction can REORDER these columns and pair the labels with the wrong
+blocks - layout/coordinate-aware extraction is required for Customer vs
+Deliver-to. Header fields (Order No:, Invoice No:) extract reliably as text.
+
+Code: GEN-DAMP-01
+Description: Single-speed drivetrain damping module
+RRP: $54.95  Qty: 1  Unit Price: $29.00  Line Total: $29.00
+SUB TOTAL $29.00  GST $2.90  TOTAL inc GST $31.90
+Terms: Net 30 After EOM
+Date Picked: 22/10/26  Packed By: JD  Con#: [BLANK IN THIS SAMPLE - no connote number in the email body or the invoice]

@@ -1,0 +1,22 @@
+From: sales@cycleparts.example
+Subject: Order shipped - Order Number N5002
+Date: 2026-10-27
+
+*** SYNTHETIC SAMPLE - invented format for demo ***
+
+Supplier: CycleParts Direct
+Order Number: N5002
+Invoice Number: INV-CP-62004
+Carrier: Australia Post eParcel
+Tracking Number: 37LMN777888901000931501
+Dispatch Date: 2026-10-27
+ETA: 2026-10-30
+
+Items shipped:
+SKU: CHN-12SP-116 Qty: 1
+
+Invoice Total: $79.95
+
+Note: this part's SKU is NOT a line on Neto order N5002 in the mock data.
+The tool must flag it for a human to add as an order line - it must not
+invent a billable line via the API.

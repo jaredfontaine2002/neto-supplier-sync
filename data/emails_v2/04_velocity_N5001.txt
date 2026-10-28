@@ -1,0 +1,18 @@
+From: dispatch@velocityimports.example
+Subject: Dispatch Advice - Your Ref N5001
+Date: 2026-10-27
+
+*** SYNTHETIC SAMPLE - invented format for demo ***
+
+Supplier: Velocity Imports
+Neto Order: N5001
+Invoice Number: INV-VI-204815
+Carrier: Toll IPEC
+Tracking Number: 881900112233
+Dispatch Date: 2026-10-27
+ETA: 2026-10-30
+
+Items shipped:
+SKU: BRK-PAD-ORG Qty: 2
+
+Invoice Total: $148.50

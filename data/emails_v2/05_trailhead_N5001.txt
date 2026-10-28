@@ -1,0 +1,18 @@
+From: orders@trailheaddist.example
+Subject: Your order N5001 has shipped
+Date: 2026-10-27
+
+*** SYNTHETIC SAMPLE - invented format for demo ***
+
+Supplier: Trailhead Distribution
+Your Ref: N5001
+Invoice Number: INV-TD-30981
+Carrier: Australia Post eParcel
+Tracking Number: 37LMN555666701000931501
+Dispatch Date: 2026-10-27
+ETA: 2026-10-31
+
+Items shipped:
+SKU: FRK-SEAL-32 Qty: 1
+
+Invoice Total: $96.00

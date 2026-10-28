@@ -1,0 +1,63 @@
+[
+  {
+    "NETOAPI_ACTION": "UpdateOrder",
+    "endpoint": "https://<yourstore>.neto.com.au/do/WS/NetoAPI",
+    "Order": {
+      "OrderID": "N5001",
+      "InternalOrderNotes": "[Inbound Velocity Imports] Inv INV-VI-204815 ($148.5) | Toll IPEC 881900112233 | Dispatched 2026-10-27 | ETA None | Parts: BRK-PAD-ORG x2",
+      "StickyNotes": {
+        "StickyNote": [
+          {
+            "Title": "Inbound: Velocity Imports INV-VI-204815",
+            "Description": "[Inbound Velocity Imports] Inv INV-VI-204815 ($148.5) | Toll IPEC 881900112233 | Dispatched 2026-10-27 | ETA None | Parts: BRK-PAD-ORG x2"
+          }
+        ]
+      },
+      "OrderLine": [
+        {
+          "SKU": "BRK-PAD-ORG",
+          "ItemNotes": "[Inbound Velocity Imports] Inv INV-VI-204815 ($148.5) | Toll IPEC 881900112233 | Dispatched 2026-10-27 | ETA None | Parts: BRK-PAD-ORG x2"
+        }
+      ]
+    }
+  },
+  {
+    "NETOAPI_ACTION": "UpdateOrder",
+    "endpoint": "https://<yourstore>.neto.com.au/do/WS/NetoAPI",
+    "Order": {
+      "OrderID": "N5001",
+      "InternalOrderNotes": "[Inbound Trailhead Distribution] Inv INV-TD-30981 ($96.0) | Australia Post eParcel 37LMN555666701000931501 | Dispatched 2026-10-27 | ETA None | Parts: FRK-SEAL-32 x1",
+      "StickyNotes": {
+        "StickyNote": [
+          {
+            "Title": "Inbound: Trailhead Distribution INV-TD-30981",
+            "Description": "[Inbound Trailhead Distribution] Inv INV-TD-30981 ($96.0) | Australia Post eParcel 37LMN555666701000931501 | Dispatched 2026-10-27 | ETA None | Parts: FRK-SEAL-32 x1"
+          }
+        ]
+      },
+      "OrderLine": [
+        {
+          "SKU": "FRK-SEAL-32",
+          "ItemNotes": "[Inbound Trailhead Distribution] Inv INV-TD-30981 ($96.0) | Australia Post eParcel 37LMN555666701000931501 | Dispatched 2026-10-27 | ETA None | Parts: FRK-SEAL-32 x1"
+        }
+      ]
+    }
+  },
+  {
+    "NETOAPI_ACTION": "UpdateOrder",
+    "endpoint": "https://<yourstore>.neto.com.au/do/WS/NetoAPI",
+    "Order": {
+      "OrderID": "N5002",
+      "InternalOrderNotes": "[Inbound CycleParts Direct] Inv INV-CP-62004 ($79.95) | Australia Post eParcel 37LMN777888901000931501 | Dispatched 2026-10-27 | ETA None | Parts: CHN-12SP-116 x1",
+      "StickyNotes": {
+        "StickyNote": [
+          {
+            "Title": "Inbound: CycleParts Direct INV-CP-62004",
+            "Description": "[Inbound CycleParts Direct] Inv INV-CP-62004 ($79.95) | Australia Post eParcel 37LMN777888901000931501 | Dispatched 2026-10-27 | ETA None | Parts: CHN-12SP-116 x1"
+          }
+        ]
+      },
+      "OrderLine": []
+    }
+  }
+]

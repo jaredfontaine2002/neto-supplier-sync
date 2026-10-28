@@ -1,0 +1,39 @@
+SAMPLE DOCUMENT - synthetic recreation of a real-world distributor sales
+order confirmation format, built for this public demo. All names,
+addresses, document numbers, account codes and prices are invented; no
+real business or customer data is included.
+STAGE NOTE: This is an order CONFIRMATION (received / being processed) -
+it is NOT a dispatch advice. No tracking exists yet at this stage, and
+none should be invented. The dispatch/tracking document is separate
+and arrives later.
+
+--- EMAIL ---
+From: Sales Team <sales@velocityimports.example>
+Date: Mon, 26 Oct 2026 09:38
+Subject: Velocity Imports Pty Ltd Sales Order Confirmation VEL2048150
+To: orders@shop.example, accounts@shop.example
+
+Dear CUST01 (EXAMPLE BIKE CO),
+Thank you for placing an order with Velocity Imports.
+Attached is confirmation that your order has been received and is being processed.
+Subject to your account being within credit terms, your order will be dispatched shortly.
+Review your account at https://b2b.velocityimports.example/B2B
+
+--- ATTACHMENT: Order confirmation - VEL2048150 - CUST01.pdf (text layer) ---
+SALES ORDER CONFIRMATION
+Supplier Sales Order No: VEL2048150
+Velocity Imports Pty Ltd, 8 Sample Court, Examplefield VIC 3000
+CHARGE TO: CUST01 (EXAMPLE BIKE CO), 1 Sample Street, SAMPLETON NSW 2000 AUSTRALIA
+DELIVER TO: CUST01 (EXAMPLE BIKE CO), 1 Sample Street, SAMPLETON NSW 2000 AUSTRALIA
+CUSTOMER CODE: CUST01
+ORDER NO: N6102
+DATE: 26/10/2026
+
+Items:
+CODE: VIO-ORING-28  DESCRIPTION: O-RING 28X1.8 - CHAINRING MOUNT (GEN 4)  BARCODE: 9300000001011  RRP: $4.95  QTY: 1  PRICE: 3.00  TOT INC GST: 3.30
+CODE: VIO-LOCKRING-4  DESCRIPTION: LOCKRING - E-BIKE DRIVE UNIT  BARCODE: 9300000001028  RRP: $16.95  QTY: 1  PRICE: 12.00  TOT INC GST: 13.20
+CODE: FRT-AIR  DESCRIPTION: AIR FREIGHT SERVICE  BARCODE: 9300000001035  QTY: 1  PRICE: 23.00  TOT INC GST: 25.30
+
+TOTAL Ex GST: 38.00  TOTAL GST: 3.80  TOTAL AMOUNT DUE: 41.80
+Printed by B2B-OM
+Backorders are automatically dispatched upon arrival; backorders reviewable via B2B.

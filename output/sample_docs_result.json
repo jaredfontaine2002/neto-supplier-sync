@@ -1,0 +1,56 @@
+[
+  {
+    "file": "07_harbour_invoice_N6101.txt",
+    "stage": "INVOICE_SHIPPED",
+    "distributor": "Harbour Imports",
+    "neto_order_id": "N6101",
+    "invoice_number": "H731204",
+    "supplier_order_number": null,
+    "items": [
+      {
+        "sku": "GEN-DAMP-01",
+        "description": "Single-speed drivetrain damping module",
+        "qty": 1
+      }
+    ],
+    "invoice_total": 31.9,
+    "tracking_number": null,
+    "tracking_missing": true,
+    "deliver_to_is_shop": false,
+    "deliver_to_customer_address": true,
+    "outcome": "SHIPPED_RECORDED + TRACKING_MISSING",
+    "explanation": "Invoice + parts recorded, order marked 'supplier shipped'. Connote was blank in BOTH the supplier email and its invoice PDF, so a chase-up task is queued - no tracking number was invented."
+  },
+  {
+    "file": "08_velocity_confirmation_N6102.txt",
+    "stage": "ORDER_CONFIRMATION",
+    "distributor": "Velocity Imports",
+    "neto_order_id": "N6102",
+    "invoice_number": null,
+    "supplier_order_number": "VEL2048150",
+    "items": [
+      {
+        "sku": "VIO-ORING-28",
+        "description": "O-RING 28X1.8 - CHAINRING MOUNT (GEN 4)",
+        "qty": 1
+      },
+      {
+        "sku": "VIO-LOCKRING-4",
+        "description": "LOCKRING - E-BIKE DRIVE UNIT",
+        "qty": 1
+      },
+      {
+        "sku": "FRT-AIR",
+        "description": "AIR FREIGHT SERVICE",
+        "qty": 1
+      }
+    ],
+    "invoice_total": 41.8,
+    "tracking_number": null,
+    "tracking_missing": false,
+    "deliver_to_is_shop": true,
+    "deliver_to_customer_address": false,
+    "outcome": "ORDER_RECORDED",
+    "explanation": "Ordered parts + supplier order no. recorded on the Neto order as a sticky/internal note. No tracking attempted - none exists yet. A later dispatch document will add it."
+  }
+]

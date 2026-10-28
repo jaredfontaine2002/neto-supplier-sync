@@ -1,0 +1,95 @@
+{
+  "orders": [
+    {
+      "customer": "Demo Customer - Service Job",
+      "inbound_shipments": [
+        {
+          "distributor": "Velocity Imports",
+          "invoice": "INV-VI-204815",
+          "carrier": "Toll IPEC",
+          "tracking": "881900112233",
+          "eta": null,
+          "parts": [
+            {
+              "sku": "BRK-PAD-ORG",
+              "qty": 2
+            }
+          ]
+        },
+        {
+          "distributor": "Trailhead Distribution",
+          "invoice": "INV-TD-30981",
+          "carrier": "Australia Post eParcel",
+          "tracking": "37LMN555666701000931501",
+          "eta": null,
+          "parts": [
+            {
+              "sku": "FRK-SEAL-32",
+              "qty": 1
+            }
+          ]
+        }
+      ],
+      "internal_notes": [
+        "[Inbound Velocity Imports] Inv INV-VI-204815 ($148.5) | Toll IPEC 881900112233 | Dispatched 2026-10-27 | ETA None | Parts: BRK-PAD-ORG x2",
+        "[Inbound Trailhead Distribution] Inv INV-TD-30981 ($96.0) | Australia Post eParcel 37LMN555666701000931501 | Dispatched 2026-10-27 | ETA None | Parts: FRK-SEAL-32 x1"
+      ],
+      "lines": [
+        {
+          "inbound": {
+            "distributor": "Velocity Imports",
+            "tracking": "881900112233",
+            "eta": null
+          },
+          "item_notes": "[Inbound Velocity Imports] Inv INV-VI-204815 ($148.5) | Toll IPEC 881900112233 | Dispatched 2026-10-27 | ETA None | Parts: BRK-PAD-ORG x2",
+          "qty": 2,
+          "sku": "BRK-PAD-ORG"
+        },
+        {
+          "inbound": {
+            "distributor": "Trailhead Distribution",
+            "tracking": "37LMN555666701000931501",
+            "eta": null
+          },
+          "item_notes": "[Inbound Trailhead Distribution] Inv INV-TD-30981 ($96.0) | Australia Post eParcel 37LMN555666701000931501 | Dispatched 2026-10-27 | ETA None | Parts: FRK-SEAL-32 x1",
+          "qty": 1,
+          "sku": "FRK-SEAL-32"
+        }
+      ],
+      "order_id": "N5001",
+      "status": "On Hold - Awaiting Parts"
+    },
+    {
+      "customer": "Demo Customer - Online Order",
+      "inbound_shipments": [
+        {
+          "distributor": "CycleParts Direct",
+          "invoice": "INV-CP-62004",
+          "carrier": "Australia Post eParcel",
+          "tracking": "37LMN777888901000931501",
+          "eta": null,
+          "parts": [
+            {
+              "sku": "CHN-12SP-116",
+              "qty": 1
+            }
+          ]
+        }
+      ],
+      "internal_notes": [
+        "[Inbound CycleParts Direct] Inv INV-CP-62004 ($79.95) | Australia Post eParcel 37LMN777888901000931501 | Dispatched 2026-10-27 | ETA None | Parts: CHN-12SP-116 x1"
+      ],
+      "lines": [
+        {
+          "inbound": null,
+          "item_notes": "",
+          "qty": 1,
+          "sku": "TYR-ROAD-28C"
+        }
+      ],
+      "order_id": "N5002",
+      "status": "On Hold - Awaiting Parts"
+    }
+  ],
+  "store": "Example Bike Shop (MOCK v2 - synthetic data only)"
+}

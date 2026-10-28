@@ -1,0 +1,25 @@
+From: dispatch@partsco.example
+Subject: Your order has been dispatched - PO EX-PO-1042
+Date: 2026-10-27
+
+*** SYNTHETIC SAMPLE - not a real supplier email, format invented for demo ***
+
+Hi shop team,
+
+Your order has been dispatched in full.
+
+Supplier: Parts Co
+Purchase Order: EX-PO-1042
+Invoice Number: INV-PC-884120
+Carrier: Australia Post eParcel
+Tracking Number: 34XDK111222301000931501
+Dispatch Date: 2026-10-27
+ETA: 2026-10-30
+
+Items shipped:
+SKU: CHN-11SP-116 Qty: 2
+SKU: CST-11SP-1130 Qty: 1
+
+Invoice Total: $486.30
+
+Track your parcel with Australia Post using the tracking number above.

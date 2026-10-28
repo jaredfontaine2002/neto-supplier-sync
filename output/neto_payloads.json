@@ -1,0 +1,46 @@
+[
+  {
+    "action": "UpdatePurchaseOrder (mock adapter)",
+    "po_id": "EX-PO-1042",
+    "set": {
+      "SupplierInvoice": "INV-PC-884120",
+      "Carrier": "Australia Post eParcel",
+      "TrackingNumber": "34XDK111222301000931501",
+      "TrackingURL": "https://auspost.com.au/mypost/track/details/34XDK111222301000931501",
+      "DispatchDate": "2026-10-27",
+      "ETA": "2026-10-30",
+      "InvoiceTotal": 486.3,
+      "Status": "In Transit"
+    }
+  },
+  {
+    "action": "UpdateOrder",
+    "order": {
+      "OrderID": "N9001",
+      "OrderStatus": "On Hold - Awaiting Part",
+      "InternalNote": "Supplier part inbound on EX-PO-1042: Parts Co inv INV-PC-884120, Australia Post eParcel 34XDK111222301000931501, ETA 2026-10-30. Tracking: https://auspost.com.au/mypost/track/details/34XDK111222301000931501"
+    }
+  },
+  {
+    "action": "UpdatePurchaseOrder (mock adapter)",
+    "po_id": "EX-PO-1043",
+    "set": {
+      "SupplierInvoice": "INV-VI-55219",
+      "Carrier": "Toll IPEC",
+      "TrackingNumber": "881900123401",
+      "TrackingURL": "https://www.mytoll.com/track?trackingNumber=881900123401",
+      "DispatchDate": "2026-10-27",
+      "ETA": "2026-11-02",
+      "InvoiceTotal": 212.0,
+      "Status": "Partially Shipped"
+    }
+  },
+  {
+    "action": "UpdateOrder",
+    "order": {
+      "OrderID": "N9002",
+      "OrderStatus": "On Hold - Awaiting Part",
+      "InternalNote": "Supplier part inbound on EX-PO-1043: Velocity Imports inv INV-VI-55219, Toll IPEC 881900123401, ETA 2026-11-02. Tracking: https://www.mytoll.com/track?trackingNumber=881900123401"
+    }
+  }
+]

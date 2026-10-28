@@ -1,0 +1,16 @@
+# Real business documents and data stay OUT of this repo by design.
+# A live deployment keeps real supplier documents in a private directory
+# that is never committed.
+private_real/
+data/real_samples/
+data/private/
+*.pdf
+
+# Local environments and caches
+.venv/
+__pycache__/
+*.pyc
+
+# Snapshot-push bookkeeping
+*.muse-github-snapshot-sync.json
+*.muse-github-snapshot-sync.json.tmp-*

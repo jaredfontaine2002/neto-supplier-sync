@@ -1,0 +1,104 @@
+{
+  "customer_orders": [
+    {
+      "customer": "Demo Customer A",
+      "internal_notes": [
+        "Supplier part inbound on EX-PO-1042: Parts Co inv INV-PC-884120, Australia Post eParcel 34XDK111222301000931501, ETA 2026-10-30. Tracking: https://auspost.com.au/mypost/track/details/34XDK111222301000931501"
+      ],
+      "order_id": "N9001",
+      "status": "On Hold - Awaiting Part"
+    },
+    {
+      "customer": "Demo Customer B",
+      "internal_notes": [
+        "Supplier part inbound on EX-PO-1043: Velocity Imports inv INV-VI-55219, Toll IPEC 881900123401, ETA 2026-11-02. Tracking: https://www.mytoll.com/track?trackingNumber=881900123401"
+      ],
+      "order_id": "N9002",
+      "status": "On Hold - Awaiting Part"
+    },
+    {
+      "customer": "Demo Customer C",
+      "internal_notes": [],
+      "order_id": "N9003",
+      "status": "On Hold - Awaiting Part"
+    }
+  ],
+  "purchase_orders": [
+    {
+      "carrier": "Australia Post eParcel",
+      "dispatch_date": "2026-10-27",
+      "eta": "2026-10-30",
+      "invoice_total": 486.3,
+      "lines": [
+        {
+          "qty_ordered": 2,
+          "qty_shipped": 2,
+          "sku": "CHN-11SP-116"
+        },
+        {
+          "qty_ordered": 1,
+          "qty_shipped": 1,
+          "sku": "CST-11SP-1130"
+        }
+      ],
+      "linked_customer_order": "N9001",
+      "notes": [],
+      "po_id": "EX-PO-1042",
+      "status": "In Transit",
+      "supplier": "Parts Co",
+      "supplier_invoice": "INV-PC-884120",
+      "tracking_number": "34XDK111222301000931501",
+      "tracking_url": "https://auspost.com.au/mypost/track/details/34XDK111222301000931501"
+    },
+    {
+      "carrier": "Toll IPEC",
+      "dispatch_date": "2026-10-27",
+      "eta": "2026-11-02",
+      "invoice_total": 212.0,
+      "lines": [
+        {
+          "qty_ordered": 4,
+          "qty_shipped": 4,
+          "sku": "PAD-RF-ORG"
+        },
+        {
+          "qty_ordered": 2,
+          "qty_shipped": 0,
+          "sku": "RTR-160-ICE"
+        }
+      ],
+      "linked_customer_order": "N9002",
+      "notes": [
+        "Backordered: [{'sku': 'RTR-160-ICE', 'qty': 2, 'eta': None}]"
+      ],
+      "po_id": "EX-PO-1043",
+      "status": "Partially Shipped",
+      "supplier": "Velocity Imports",
+      "supplier_invoice": "INV-VI-55219",
+      "tracking_number": "881900123401",
+      "tracking_url": "https://www.mytoll.com/track?trackingNumber=881900123401"
+    },
+    {
+      "carrier": null,
+      "dispatch_date": null,
+      "eta": null,
+      "invoice_total": null,
+      "lines": [
+        {
+          "qty_ordered": 1,
+          "qty_shipped": 0,
+          "sku": "CRK-8100-170"
+        }
+      ],
+      "linked_customer_order": "N9003",
+      "notes": [],
+      "po_id": "EX-PO-1044",
+      "status": "Awaiting Dispatch",
+      "supplier": "Parts Co",
+      "supplier_invoice": null,
+      "tracking_number": null,
+      "tracking_url": null
+    }
+  ],
+  "store": "Example Bike Shop (MOCK - synthetic data only)"
+}

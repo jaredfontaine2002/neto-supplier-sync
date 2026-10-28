@@ -1,0 +1,19 @@
+From: sales@distributor-example.com
+Subject: We've shipped your order
+Date: 2026-10-27
+
+*** SYNTHETIC SAMPLE - invented for demo ***
+
+Supplier: Unknown Distributor
+Invoice Number: INV-UNK-9911
+Carrier: Sendle
+Tracking Number: SLZ882910AU
+Dispatch Date: 2026-10-27
+
+Items shipped:
+SKU: BB-CUP-SET Qty: 1
+
+Invoice Total: $189.00
+
+Note: no purchase order reference was included in this email.
+This is exactly the case that must NOT be auto-posted to Neto.

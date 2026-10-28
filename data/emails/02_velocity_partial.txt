@@ -1,0 +1,22 @@
+From: orders@velocityimports.example
+Subject: Dispatch advice / partial shipment - Your Ref EX-PO-1043
+Date: 2026-10-27
+
+*** SYNTHETIC SAMPLE - not a real distributor email, format invented for demo ***
+
+Supplier: Velocity Imports
+Purchase Order: EX-PO-1043
+Invoice Number: INV-VI-55219
+Carrier: Toll IPEC
+Tracking Number: 881900123401
+Dispatch Date: 2026-10-27
+ETA: 2026-11-02
+
+Items shipped:
+SKU: PAD-RF-ORG Qty: 4
+
+BACKORDER - not shipped in this parcel:
+SKU: RTR-160-ICE Qty: 2
+Backorder ETA: 2026-11-14
+
+Invoice Total: $212.00
