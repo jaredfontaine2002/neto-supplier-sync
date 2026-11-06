@@ -115,3 +115,12 @@ plain-English reports).
 ## License
 
 MIT — see [`LICENSE`](LICENSE).
+
+## What I'd do next
+
+- Poll an inbox automatically instead of relying on manual file drops —
+  the parsing and matching already work, the trigger is the missing piece.
+- More supplier invoice formats. Every distributor lays out a PDF
+  differently; the format handlers are where the next hours would go.
+- A small review-queue UI. Right now the queue is a file a person reads;
+  it deserves a page with the email and the candidate order side by side.
