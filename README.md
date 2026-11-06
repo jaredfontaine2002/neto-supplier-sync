@@ -18,6 +18,14 @@ real store, inbox or API account.
 
 Built in **Python** (stdlib only, no dependencies to install).
 
+## Why I built this
+
+I worked the inbox side of a bike shop. Supplier emails land wherever they
+land — a tracking number buried in a PDF, an order number in a subject line
+from three days ago. Then a customer asks where their part is and someone
+goes digging through inboxes. I built this so the digging happens
+automatically and the answer lives on the order itself.
+
 ## The safety design (the important part)
 
 Supplier tracking is *inbound* (distributor → shop); customer tracking
